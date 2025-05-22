@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Welcome Yena's page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <div class = "container">
+            <div class = "logo">Yena's Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id = "home" class="hero">
+        <div class="container">
+            <h1>Hello, this is my portfolio page</h1>
+            <img src="images/nya_02.png" alt="Black kitty and her mom">
+            <p> I draw, I code. Please take a look at my work.
+                Is it true that misspelling Latin words will bring a great demon?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Ullam sit qui incidunt saepe dicta quidem officia id. 
+                Deserunt debitis inventore tempore neque temporibus voluptas. 
+                Dolor blanditiis molestiae quaerat vel dolore.</p><br>
+            <div class = "extlink">
+            <li><a id="link" href="https://www.artstation.com/nugiraffe">See more portfolio at Artstation</a></li></div>
+        </div>
+        
+        <button type="submit" onclick="showRandomMessage()" >
+            <img src="images/fortune_cookie.png" alt="Magical cookie with star" border="0"/>
+        </button>
+        <script src="scripts.js"></script>
+        <script>
+        document.getElementById('myImageButton').addEventListener('click', showRandomMessage);
+        </script>
+        <div id="message" class="message">Fortune cookie for visiter : </div>
+        
+    </section>
+</body>
+
+<footer>
+    <div class="container">
+        <p>© 2024 Yena's Portfolio. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="mailto:y_hong223753@fanshaweonline.ca">e-mail</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>
